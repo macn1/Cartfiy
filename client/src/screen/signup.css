@@ -1,0 +1,88 @@
+/* LoginForm.css */
+
+.login-form-container {
+    background-color:aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-image: url('signup3.jpg');
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .login-form {
+    
+    width: 450px;
+    padding: 20px;
+    background-color: #c55deb4f;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+.already-have-account {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .already-have-account p {
+    font-size: 14px;
+  }
+  
+  .already-have-account a {
+    color: #e6e9ec;
+    text-decoration: none;
+  }
+
+
+  .error{
+    
+  }
+  
+  .already-have-account a:hover {
+    text-decoration: underline;
+  }
+  @media (max-width: 768px) {
+    .login-form {
+      width: 90%;
+      max-width: 300px;
+    }
+  }
